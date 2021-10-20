@@ -1,0 +1,40 @@
+/*** Created by finalstar on 1/19/2021. */
+@charset "utf-8";
+
+/*--------------------------------------------- reset ----------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display: block; }
+body{ line-height: 1; }
+
+*{ box-sizing: border-box; }
+
+#container{ padding: 0 30px; }
+header{ line-height: 40px; padding: 30px 10px; background: #487ebf; font-family: monospace; font-size: 34px; color: #ffffff; text-align: center; }
+
+#listType1{ margin-top: 30px; }
+#listType1::after{ content: ""; clear: both; display: block; }
+#listType1 > section{ width: 32%; line-height: 24px; padding: 20px 10px; margin-right: 2%; background: #eff0f0; font-size: 15px; float: left; text-align: center; }
+#listType1 > section:last-child{ margin-right: 0; }
+#listType1 h2{ font-family: monospace; font-weight: bold; font-size: 19px; }
+
+#listType2{ margin-top: 30px; }
+#listType2::after{ content: ""; clear: both; display: block; }
+#listType2 > section{ width: 23.5%; line-height: 24px; padding: 60px 10px; margin-right: 2%; color: #eff0f0; font-size: 15px; float: left; text-align: center; }
+#listType2 > section:nth-child(1){ background: rgb(60, 138, 228); }
+#listType2 > section:nth-child(2){ background: rgb(231, 187, 93); }
+#listType2 > section:nth-child(3){ background: rgb(93, 231, 190); }
+#listType2 > section:nth-child(4){ margin-right: 0; background: rgb(231, 93, 127); }
